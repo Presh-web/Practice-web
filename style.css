@@ -1,0 +1,43 @@
+body {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.card {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 10px;
+    box-shadow: 0 0 15px gray;
+}
+
+.card h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background: brown;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+    
